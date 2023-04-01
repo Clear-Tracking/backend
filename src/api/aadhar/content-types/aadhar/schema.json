@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aadhars",
+  "info": {
+    "singularName": "aadhar",
+    "pluralName": "aadhars",
+    "displayName": "Aadhar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phoneNo": {
+      "type": "text",
+      "required": true
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    },
+    "dob": {
+      "type": "date",
+      "required": true
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "AadharNo": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}

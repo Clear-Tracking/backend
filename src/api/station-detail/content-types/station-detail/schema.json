@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "station_details",
+  "info": {
+    "singularName": "station-detail",
+    "pluralName": "station-details",
+    "displayName": "StationDetail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "StationId": {
+      "type": "biginteger",
+      "required": true
+    },
+    "StationName": {
+      "type": "string",
+      "required": true
+    },
+    "Address": {
+      "type": "string",
+      "required": true
+    },
+    "InspectorName": {
+      "type": "string",
+      "required": true
+    },
+    "RegisteredCases": {
+      "type": "biginteger",
+      "required": true
+    },
+    "FoundCases": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}
