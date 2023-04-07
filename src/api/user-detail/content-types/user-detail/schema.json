@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
     },
@@ -20,15 +20,11 @@
       "type": "email",
       "required": true
     },
-    "password": {
-      "type": "password",
-      "required": true
-    },
     "contactNo": {
       "type": "string",
       "required": true
     },
-    "AadharNo": {
+    "aadharNo": {
       "type": "string",
       "required": false
     },
@@ -39,6 +35,9 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "password": {
+      "type": "string"
     }
   }
 }
