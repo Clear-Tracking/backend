@@ -89,12 +89,26 @@
     },
     "isLaunched": {
       "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "caseNo": {
+      "type": "integer",
+      "unique": true,
       "required": true
     },
-    "station_detail": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::station-detail.station-detail"
+    "caseId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "firLaunchedBy": {
+      "type": "string",
+      "required": true
+    },
+    "stationId": {
+      "type": "integer",
+      "required": true
     }
   }
 }

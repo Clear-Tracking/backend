@@ -4,7 +4,8 @@
   "info": {
     "singularName": "user-detail",
     "pluralName": "user-details",
-    "displayName": "UserDetail"
+    "displayName": "UserDetail",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -29,6 +30,14 @@
     },
     "AadharNo": {
       "type": "string",
+      "required": false
+    },
+    "stationId": {
+      "type": "integer"
+    },
+    "isPolice": {
+      "type": "boolean",
+      "default": false,
       "required": true
     }
   }

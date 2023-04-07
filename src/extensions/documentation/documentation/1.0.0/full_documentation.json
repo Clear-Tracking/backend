@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-03-24T06:36:33.472Z"
+    "x-generation-date": "2023-04-07T15:44:24.125Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -102,7 +102,10 @@
               "gender",
               "dob",
               "address",
-              "AadharNo"
+              "AadharNo",
+              "lastname",
+              "fathername",
+              "mothername"
             ],
             "type": "object",
             "properties": {
@@ -138,6 +141,15 @@
                 "type": "string"
               },
               "AadharNo": {
+                "type": "string"
+              },
+              "lastname": {
+                "type": "string"
+              },
+              "fathername": {
+                "type": "string"
+              },
+              "mothername": {
                 "type": "string"
               }
             }
@@ -795,6 +807,15 @@
                 "type": "string"
               },
               "AadharNo": {
+                "type": "string"
+              },
+              "lastname": {
+                "type": "string"
+              },
+              "fathername": {
+                "type": "string"
+              },
+              "mothername": {
                 "type": "string"
               },
               "createdAt": {
@@ -1749,6 +1770,15 @@
                 "type": "string"
               },
               "AadharNo": {
+                "type": "string"
+              },
+              "lastname": {
+                "type": "string"
+              },
+              "fathername": {
+                "type": "string"
+              },
+              "mothername": {
                 "type": "string"
               },
               "createdAt": {
@@ -2738,6 +2768,15 @@
               "AadharNo": {
                 "type": "string"
               },
+              "lastname": {
+                "type": "string"
+              },
+              "fathername": {
+                "type": "string"
+              },
+              "mothername": {
+                "type": "string"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -3692,6 +3731,15 @@
               "AadharNo": {
                 "type": "string"
               },
+              "lastname": {
+                "type": "string"
+              },
+              "fathername": {
+                "type": "string"
+              },
+              "mothername": {
+                "type": "string"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -4026,7 +4074,11 @@
               "Hair",
               "height",
               "Weight",
-              "isLaunched"
+              "isLaunched",
+              "caseNo",
+              "caseId",
+              "firLaunchedBy",
+              "stationId"
             ],
             "type": "object",
             "properties": {
@@ -4105,16 +4157,17 @@
               "isLaunched": {
                 "type": "boolean"
               },
-              "station_detail": {
-                "oneOf": [
-                  {
-                    "type": "integer"
-                  },
-                  {
-                    "type": "string"
-                  }
-                ],
-                "example": "string or id"
+              "caseNo": {
+                "type": "integer"
+              },
+              "caseId": {
+                "type": "string"
+              },
+              "firLaunchedBy": {
+                "type": "string"
+              },
+              "stationId": {
+                "type": "integer"
               }
             }
           }
@@ -4783,6 +4836,15 @@
                             "type": "string"
                           },
                           "AadharNo": {
+                            "type": "string"
+                          },
+                          "lastname": {
+                            "type": "string"
+                          },
+                          "fathername": {
+                            "type": "string"
+                          },
+                          "mothername": {
                             "type": "string"
                           },
                           "createdAt": {
@@ -5762,93 +5824,17 @@
               "isLaunched": {
                 "type": "boolean"
               },
-              "station_detail": {
-                "type": "object",
-                "properties": {
-                  "data": {
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "type": "number"
-                      },
-                      "attributes": {
-                        "type": "object",
-                        "properties": {
-                          "StationId": {
-                            "type": "string",
-                            "pattern": "^\\d*$",
-                            "example": "123456789"
-                          },
-                          "StationName": {
-                            "type": "string"
-                          },
-                          "Address": {
-                            "type": "string"
-                          },
-                          "InspectorName": {
-                            "type": "string"
-                          },
-                          "RegisteredCases": {
-                            "type": "string",
-                            "pattern": "^\\d*$",
-                            "example": "123456789"
-                          },
-                          "FoundCases": {
-                            "type": "string",
-                            "pattern": "^\\d*$",
-                            "example": "123456789"
-                          },
-                          "createdAt": {
-                            "type": "string",
-                            "format": "date-time"
-                          },
-                          "updatedAt": {
-                            "type": "string",
-                            "format": "date-time"
-                          },
-                          "publishedAt": {
-                            "type": "string",
-                            "format": "date-time"
-                          },
-                          "createdBy": {
-                            "type": "object",
-                            "properties": {
-                              "data": {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "attributes": {
-                                    "type": "object",
-                                    "properties": {}
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "updatedBy": {
-                            "type": "object",
-                            "properties": {
-                              "data": {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "attributes": {
-                                    "type": "object",
-                                    "properties": {}
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
+              "caseNo": {
+                "type": "integer"
+              },
+              "caseId": {
+                "type": "string"
+              },
+              "firLaunchedBy": {
+                "type": "string"
+              },
+              "stationId": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -6565,6 +6551,15 @@
                           "AadharNo": {
                             "type": "string"
                           },
+                          "lastname": {
+                            "type": "string"
+                          },
+                          "fathername": {
+                            "type": "string"
+                          },
+                          "mothername": {
+                            "type": "string"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -7542,93 +7537,17 @@
               "isLaunched": {
                 "type": "boolean"
               },
-              "station_detail": {
-                "type": "object",
-                "properties": {
-                  "data": {
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "type": "number"
-                      },
-                      "attributes": {
-                        "type": "object",
-                        "properties": {
-                          "StationId": {
-                            "type": "string",
-                            "pattern": "^\\d*$",
-                            "example": "123456789"
-                          },
-                          "StationName": {
-                            "type": "string"
-                          },
-                          "Address": {
-                            "type": "string"
-                          },
-                          "InspectorName": {
-                            "type": "string"
-                          },
-                          "RegisteredCases": {
-                            "type": "string",
-                            "pattern": "^\\d*$",
-                            "example": "123456789"
-                          },
-                          "FoundCases": {
-                            "type": "string",
-                            "pattern": "^\\d*$",
-                            "example": "123456789"
-                          },
-                          "createdAt": {
-                            "type": "string",
-                            "format": "date-time"
-                          },
-                          "updatedAt": {
-                            "type": "string",
-                            "format": "date-time"
-                          },
-                          "publishedAt": {
-                            "type": "string",
-                            "format": "date-time"
-                          },
-                          "createdBy": {
-                            "type": "object",
-                            "properties": {
-                              "data": {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "attributes": {
-                                    "type": "object",
-                                    "properties": {}
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "updatedBy": {
-                            "type": "object",
-                            "properties": {
-                              "data": {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "attributes": {
-                                    "type": "object",
-                                    "properties": {}
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
+              "caseNo": {
+                "type": "integer"
+              },
+              "caseId": {
+                "type": "string"
+              },
+              "firLaunchedBy": {
+                "type": "string"
+              },
+              "stationId": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -8378,6 +8297,15 @@
                           "AadharNo": {
                             "type": "string"
                           },
+                          "lastname": {
+                            "type": "string"
+                          },
+                          "fathername": {
+                            "type": "string"
+                          },
+                          "mothername": {
+                            "type": "string"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -9355,93 +9283,17 @@
               "isLaunched": {
                 "type": "boolean"
               },
-              "station_detail": {
-                "type": "object",
-                "properties": {
-                  "data": {
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "type": "number"
-                      },
-                      "attributes": {
-                        "type": "object",
-                        "properties": {
-                          "StationId": {
-                            "type": "string",
-                            "pattern": "^\\d*$",
-                            "example": "123456789"
-                          },
-                          "StationName": {
-                            "type": "string"
-                          },
-                          "Address": {
-                            "type": "string"
-                          },
-                          "InspectorName": {
-                            "type": "string"
-                          },
-                          "RegisteredCases": {
-                            "type": "string",
-                            "pattern": "^\\d*$",
-                            "example": "123456789"
-                          },
-                          "FoundCases": {
-                            "type": "string",
-                            "pattern": "^\\d*$",
-                            "example": "123456789"
-                          },
-                          "createdAt": {
-                            "type": "string",
-                            "format": "date-time"
-                          },
-                          "updatedAt": {
-                            "type": "string",
-                            "format": "date-time"
-                          },
-                          "publishedAt": {
-                            "type": "string",
-                            "format": "date-time"
-                          },
-                          "createdBy": {
-                            "type": "object",
-                            "properties": {
-                              "data": {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "attributes": {
-                                    "type": "object",
-                                    "properties": {}
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "updatedBy": {
-                            "type": "object",
-                            "properties": {
-                              "data": {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "attributes": {
-                                    "type": "object",
-                                    "properties": {}
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
+              "caseNo": {
+                "type": "integer"
+              },
+              "caseId": {
+                "type": "string"
+              },
+              "firLaunchedBy": {
+                "type": "string"
+              },
+              "stationId": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -10158,6 +10010,15 @@
                           "AadharNo": {
                             "type": "string"
                           },
+                          "lastname": {
+                            "type": "string"
+                          },
+                          "fathername": {
+                            "type": "string"
+                          },
+                          "mothername": {
+                            "type": "string"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -11135,93 +10996,17 @@
               "isLaunched": {
                 "type": "boolean"
               },
-              "station_detail": {
-                "type": "object",
-                "properties": {
-                  "data": {
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "type": "number"
-                      },
-                      "attributes": {
-                        "type": "object",
-                        "properties": {
-                          "StationId": {
-                            "type": "string",
-                            "pattern": "^\\d*$",
-                            "example": "123456789"
-                          },
-                          "StationName": {
-                            "type": "string"
-                          },
-                          "Address": {
-                            "type": "string"
-                          },
-                          "InspectorName": {
-                            "type": "string"
-                          },
-                          "RegisteredCases": {
-                            "type": "string",
-                            "pattern": "^\\d*$",
-                            "example": "123456789"
-                          },
-                          "FoundCases": {
-                            "type": "string",
-                            "pattern": "^\\d*$",
-                            "example": "123456789"
-                          },
-                          "createdAt": {
-                            "type": "string",
-                            "format": "date-time"
-                          },
-                          "updatedAt": {
-                            "type": "string",
-                            "format": "date-time"
-                          },
-                          "publishedAt": {
-                            "type": "string",
-                            "format": "date-time"
-                          },
-                          "createdBy": {
-                            "type": "object",
-                            "properties": {
-                              "data": {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "attributes": {
-                                    "type": "object",
-                                    "properties": {}
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "updatedBy": {
-                            "type": "object",
-                            "properties": {
-                              "data": {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "attributes": {
-                                    "type": "object",
-                                    "properties": {}
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
+              "caseNo": {
+                "type": "integer"
+              },
+              "caseId": {
+                "type": "string"
+              },
+              "firLaunchedBy": {
+                "type": "string"
+              },
+              "stationId": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -12719,7 +12504,7 @@
               "email",
               "password",
               "contactNo",
-              "AadharNo"
+              "isPolice"
             ],
             "type": "object",
             "properties": {
@@ -12740,6 +12525,12 @@
               },
               "AadharNo": {
                 "type": "string"
+              },
+              "stationId": {
+                "type": "integer"
+              },
+              "isPolice": {
+                "type": "boolean"
               }
             }
           }
@@ -12766,6 +12557,12 @@
               },
               "AadharNo": {
                 "type": "string"
+              },
+              "stationId": {
+                "type": "integer"
+              },
+              "isPolice": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",
@@ -13089,6 +12886,12 @@
               },
               "AadharNo": {
                 "type": "string"
+              },
+              "stationId": {
+                "type": "integer"
+              },
+              "isPolice": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",
@@ -13446,6 +13249,12 @@
               "AadharNo": {
                 "type": "string"
               },
+              "stationId": {
+                "type": "integer"
+              },
+              "isPolice": {
+                "type": "boolean"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -13768,6 +13577,12 @@
               },
               "AadharNo": {
                 "type": "string"
+              },
+              "stationId": {
+                "type": "integer"
+              },
+              "isPolice": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",

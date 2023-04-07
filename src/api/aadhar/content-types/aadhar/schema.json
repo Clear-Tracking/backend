@@ -47,6 +47,18 @@
     "AadharNo": {
       "type": "uid",
       "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "fathername": {
+      "type": "string",
+      "required": true
+    },
+    "mothername": {
+      "type": "string",
+      "required": true
     }
   }
 }

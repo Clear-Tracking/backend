@@ -4,7 +4,8 @@
   "info": {
     "singularName": "station-detail",
     "pluralName": "station-details",
-    "displayName": "StationDetail"
+    "displayName": "StationDetail",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,7 +14,8 @@
   "attributes": {
     "StationId": {
       "type": "biginteger",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "StationName": {
       "type": "string",
