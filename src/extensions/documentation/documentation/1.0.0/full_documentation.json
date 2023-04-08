@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-04-07T18:52:12.014Z"
+    "x-generation-date": "2023-04-08T08:18:33.197Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -9636,22 +9636,14 @@
         "properties": {
           "data": {
             "required": [
-              "name",
               "email",
-              "contactNo",
               "isPolice"
             ],
             "type": "object",
             "properties": {
-              "name": {
-                "type": "string"
-              },
               "email": {
                 "type": "string",
                 "format": "email"
-              },
-              "contactNo": {
-                "type": "string"
               },
               "aadharNo": {
                 "type": "string"
@@ -9663,6 +9655,9 @@
                 "type": "boolean"
               },
               "password": {
+                "type": "string"
+              },
+              "username": {
                 "type": "string"
               }
             }
@@ -9678,15 +9673,9 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "name": {
-                "type": "string"
-              },
               "email": {
                 "type": "string",
                 "format": "email"
-              },
-              "contactNo": {
-                "type": "string"
               },
               "aadharNo": {
                 "type": "string"
@@ -9698,6 +9687,9 @@
                 "type": "boolean"
               },
               "password": {
+                "type": "string"
+              },
+              "username": {
                 "type": "string"
               },
               "createdAt": {
@@ -10010,15 +10002,9 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "name": {
-                "type": "string"
-              },
               "email": {
                 "type": "string",
                 "format": "email"
-              },
-              "contactNo": {
-                "type": "string"
               },
               "aadharNo": {
                 "type": "string"
@@ -10030,6 +10016,9 @@
                 "type": "boolean"
               },
               "password": {
+                "type": "string"
+              },
+              "username": {
                 "type": "string"
               },
               "createdAt": {
@@ -10375,15 +10364,9 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "name": {
-                "type": "string"
-              },
               "email": {
                 "type": "string",
                 "format": "email"
-              },
-              "contactNo": {
-                "type": "string"
               },
               "aadharNo": {
                 "type": "string"
@@ -10395,6 +10378,9 @@
                 "type": "boolean"
               },
               "password": {
+                "type": "string"
+              },
+              "username": {
                 "type": "string"
               },
               "createdAt": {
@@ -10707,15 +10693,9 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "name": {
-                "type": "string"
-              },
               "email": {
                 "type": "string",
                 "format": "email"
-              },
-              "contactNo": {
-                "type": "string"
               },
               "aadharNo": {
                 "type": "string"
@@ -10727,6 +10707,9 @@
                 "type": "boolean"
               },
               "password": {
+                "type": "string"
+              },
+              "username": {
                 "type": "string"
               },
               "createdAt": {

@@ -12,16 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
     "email": {
       "type": "email",
-      "required": true
-    },
-    "contactNo": {
-      "type": "string",
       "required": true
     },
     "aadharNo": {
@@ -37,6 +29,9 @@
       "required": true
     },
     "password": {
+      "type": "string"
+    },
+    "username": {
       "type": "string"
     }
   }
