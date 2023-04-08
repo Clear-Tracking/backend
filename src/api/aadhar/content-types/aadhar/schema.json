@@ -44,19 +44,19 @@
       "type": "text",
       "required": true
     },
-    "AadharNo": {
+    "aadharNo": {
       "type": "uid",
       "required": true
     },
-    "lastname": {
+    "lastName": {
       "type": "string",
       "required": true
     },
-    "fathername": {
+    "fatherName": {
       "type": "string",
       "required": true
     },
-    "mothername": {
+    "motherName": {
       "type": "string",
       "required": true
     }

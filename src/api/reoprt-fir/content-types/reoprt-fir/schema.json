@@ -4,7 +4,7 @@
   "info": {
     "singularName": "reoprt-fir",
     "pluralName": "reoprt-firs",
-    "displayName": "ReoprtFIR",
+    "displayName": "ReportFIR",
     "description": ""
   },
   "options": {
@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "aadhar": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::aadhar.aadhar"
-    },
     "personpic": {
       "type": "media",
       "multiple": false,
@@ -45,11 +40,11 @@
       "type": "text",
       "required": true
     },
-    "Guardian": {
+    "guardian": {
       "type": "string",
       "required": true
     },
-    "Contact": {
+    "contact": {
       "type": "string",
       "required": true
     },
@@ -65,15 +60,15 @@
       "type": "string",
       "required": true
     },
-    "Eye": {
+    "eye": {
       "type": "string",
       "required": true
     },
-    "Hair": {
+    "hair": {
       "type": "string",
       "required": true
     },
-    "Face": {
+    "face": {
       "type": "text"
     },
     "aod": {
@@ -83,7 +78,7 @@
       "type": "string",
       "required": true
     },
-    "Weight": {
+    "weight": {
       "type": "string",
       "required": true
     },
@@ -109,6 +104,9 @@
     "stationId": {
       "type": "integer",
       "required": true
+    },
+    "aadharNo": {
+      "type": "string"
     }
   }
 }
