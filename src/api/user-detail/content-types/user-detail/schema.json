@@ -12,20 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
-      "type": "string",
-      "required": true
-    },
     "email": {
       "type": "email",
-      "required": true
-    },
-    "password": {
-      "type": "password",
-      "required": true
-    },
-    "contactNo": {
-      "type": "string",
       "required": true
     },
     "AadharNo": {
@@ -38,6 +26,14 @@
     "isPolice": {
       "type": "boolean",
       "default": false,
+      "required": true
+    },
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
       "required": true
     }
   }

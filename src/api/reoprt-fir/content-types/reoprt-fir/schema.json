@@ -12,19 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "aadhar": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::aadhar.aadhar"
-    },
-    "personpic": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "firstName": {
       "type": "string",
       "required": true
@@ -45,7 +32,7 @@
       "type": "text",
       "required": true
     },
-    "Guardian": {
+    "guardian": {
       "type": "string",
       "required": true
     },
@@ -83,7 +70,7 @@
       "type": "string",
       "required": true
     },
-    "Weight": {
+    "weight": {
       "type": "string",
       "required": true
     },
@@ -92,23 +79,29 @@
       "required": true,
       "default": false
     },
-    "caseNo": {
-      "type": "integer",
-      "unique": true,
-      "required": true
-    },
-    "caseId": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
     "firLaunchedBy": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "stationId": {
       "type": "integer",
       "required": true
+    },
+    "aadhar": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "found": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "familyRegisteredAadhar": {
+      "type": "string"
+    },
+    "personpic": {
+      "type": "text"
     }
   }
 }
