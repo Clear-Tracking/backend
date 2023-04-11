@@ -102,10 +102,10 @@
               "gender",
               "dob",
               "address",
-              "AadharNo",
-              "lastname",
-              "fathername",
-              "mothername"
+              "aadharNo",
+              "lastName",
+              "fatherName",
+              "motherName"
             ],
             "type": "object",
             "properties": {
@@ -140,16 +140,16 @@
               "address": {
                 "type": "string"
               },
-              "AadharNo": {
+              "aadharNo": {
                 "type": "string"
               },
-              "lastname": {
+              "lastName": {
                 "type": "string"
               },
-              "fathername": {
+              "fatherName": {
                 "type": "string"
               },
-              "mothername": {
+              "motherName": {
                 "type": "string"
               }
             }
@@ -806,16 +806,16 @@
               "address": {
                 "type": "string"
               },
-              "AadharNo": {
+              "aadharNo": {
                 "type": "string"
               },
-              "lastname": {
+              "lastName": {
                 "type": "string"
               },
-              "fathername": {
+              "fatherName": {
                 "type": "string"
               },
-              "mothername": {
+              "motherName": {
                 "type": "string"
               },
               "createdAt": {
@@ -1769,16 +1769,16 @@
               "address": {
                 "type": "string"
               },
-              "AadharNo": {
+              "aadharNo": {
                 "type": "string"
               },
-              "lastname": {
+              "lastName": {
                 "type": "string"
               },
-              "fathername": {
+              "fatherName": {
                 "type": "string"
               },
-              "mothername": {
+              "motherName": {
                 "type": "string"
               },
               "createdAt": {
@@ -2765,16 +2765,16 @@
               "address": {
                 "type": "string"
               },
-              "AadharNo": {
+              "aadharNo": {
                 "type": "string"
               },
-              "lastname": {
+              "lastName": {
                 "type": "string"
               },
-              "fathername": {
+              "fatherName": {
                 "type": "string"
               },
-              "mothername": {
+              "motherName": {
                 "type": "string"
               },
               "createdAt": {
@@ -3728,16 +3728,16 @@
               "address": {
                 "type": "string"
               },
-              "AadharNo": {
+              "aadharNo": {
                 "type": "string"
               },
-              "lastname": {
+              "lastName": {
                 "type": "string"
               },
-              "fathername": {
+              "fatherName": {
                 "type": "string"
               },
-              "mothername": {
+              "motherName": {
                 "type": "string"
               },
               "createdAt": {
@@ -4069,8 +4069,8 @@
               "pom",
               "dom",
               "complexion",
-              "Eye",
-              "Hair",
+              "eye",
+              "hair",
               "height",
               "weight",
               "isLaunched",
@@ -4099,7 +4099,7 @@
               "guardian": {
                 "type": "string"
               },
-              "Contact": {
+              "contact": {
                 "type": "string"
               },
               "pom": {
@@ -4112,13 +4112,13 @@
               "complexion": {
                 "type": "string"
               },
-              "Eye": {
+              "eye": {
                 "type": "string"
               },
-              "Hair": {
+              "hair": {
                 "type": "string"
               },
-              "Face": {
+              "face": {
                 "type": "string"
               },
               "aod": {
@@ -4183,7 +4183,7 @@
               "guardian": {
                 "type": "string"
               },
-              "Contact": {
+              "contact": {
                 "type": "string"
               },
               "pom": {
@@ -4196,13 +4196,13 @@
               "complexion": {
                 "type": "string"
               },
-              "Eye": {
+              "eye": {
                 "type": "string"
               },
-              "Hair": {
+              "hair": {
                 "type": "string"
               },
-              "Face": {
+              "face": {
                 "type": "string"
               },
               "aod": {
@@ -4564,7 +4564,7 @@
               "guardian": {
                 "type": "string"
               },
-              "Contact": {
+              "contact": {
                 "type": "string"
               },
               "pom": {
@@ -4577,13 +4577,13 @@
               "complexion": {
                 "type": "string"
               },
-              "Eye": {
+              "eye": {
                 "type": "string"
               },
-              "Hair": {
+              "hair": {
                 "type": "string"
               },
-              "Face": {
+              "face": {
                 "type": "string"
               },
               "aod": {
@@ -4978,7 +4978,7 @@
               "guardian": {
                 "type": "string"
               },
-              "Contact": {
+              "contact": {
                 "type": "string"
               },
               "pom": {
@@ -4991,13 +4991,13 @@
               "complexion": {
                 "type": "string"
               },
-              "Eye": {
+              "eye": {
                 "type": "string"
               },
-              "Hair": {
+              "hair": {
                 "type": "string"
               },
-              "Face": {
+              "face": {
                 "type": "string"
               },
               "aod": {
@@ -5359,7 +5359,7 @@
               "guardian": {
                 "type": "string"
               },
-              "Contact": {
+              "contact": {
                 "type": "string"
               },
               "pom": {
@@ -5372,13 +5372,13 @@
               "complexion": {
                 "type": "string"
               },
-              "Eye": {
+              "eye": {
                 "type": "string"
               },
-              "Hair": {
+              "hair": {
                 "type": "string"
               },
-              "Face": {
+              "face": {
                 "type": "string"
               },
               "aod": {
@@ -5730,35 +5730,35 @@
         "properties": {
           "data": {
             "required": [
-              "StationId",
-              "StationName",
-              "Address",
-              "InspectorName",
-              "RegisteredCases",
-              "FoundCases"
+              "stationId",
+              "stationName",
+              "address",
+              "inspectorName",
+              "registeredCases",
+              "foundCases"
             ],
             "type": "object",
             "properties": {
-              "StationId": {
+              "stationId": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
               },
-              "StationName": {
+              "stationName": {
                 "type": "string"
               },
-              "Address": {
+              "address": {
                 "type": "string"
               },
-              "InspectorName": {
+              "inspectorName": {
                 "type": "string"
               },
-              "RegisteredCases": {
+              "registeredCases": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
               },
-              "FoundCases": {
+              "foundCases": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
@@ -5776,26 +5776,26 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "StationId": {
+              "stationId": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
               },
-              "StationName": {
+              "stationName": {
                 "type": "string"
               },
-              "Address": {
+              "address": {
                 "type": "string"
               },
-              "InspectorName": {
+              "inspectorName": {
                 "type": "string"
               },
-              "RegisteredCases": {
+              "registeredCases": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
               },
-              "FoundCases": {
+              "foundCases": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
@@ -6110,26 +6110,26 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "StationId": {
+              "stationId": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
               },
-              "StationName": {
+              "stationName": {
                 "type": "string"
               },
-              "Address": {
+              "address": {
                 "type": "string"
               },
-              "InspectorName": {
+              "inspectorName": {
                 "type": "string"
               },
-              "RegisteredCases": {
+              "registeredCases": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
               },
-              "FoundCases": {
+              "foundCases": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
@@ -6477,26 +6477,26 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "StationId": {
+              "stationId": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
               },
-              "StationName": {
+              "stationName": {
                 "type": "string"
               },
-              "Address": {
+              "address": {
                 "type": "string"
               },
-              "InspectorName": {
+              "inspectorName": {
                 "type": "string"
               },
-              "RegisteredCases": {
+              "registeredCases": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
               },
-              "FoundCases": {
+              "foundCases": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
@@ -6811,26 +6811,26 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "StationId": {
+              "stationId": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
               },
-              "StationName": {
+              "stationName": {
                 "type": "string"
               },
-              "Address": {
+              "address": {
                 "type": "string"
               },
-              "InspectorName": {
+              "inspectorName": {
                 "type": "string"
               },
-              "RegisteredCases": {
+              "registeredCases": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"
               },
-              "FoundCases": {
+              "foundCases": {
                 "type": "string",
                 "pattern": "^\\d*$",
                 "example": "123456789"

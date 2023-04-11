@@ -4,7 +4,7 @@
   "info": {
     "singularName": "reoprt-fir",
     "pluralName": "reoprt-firs",
-    "displayName": "ReoprtFIR",
+    "displayName": "ReportFIR",
     "description": ""
   },
   "options": {
@@ -36,7 +36,7 @@
       "type": "string",
       "required": true
     },
-    "Contact": {
+    "contact": {
       "type": "string",
       "required": true
     },
@@ -52,15 +52,15 @@
       "type": "string",
       "required": true
     },
-    "Eye": {
+    "eye": {
       "type": "string",
       "required": true
     },
-    "Hair": {
+    "hair": {
       "type": "string",
       "required": true
     },
-    "Face": {
+    "face": {
       "type": "text"
     },
     "aod": {
