@@ -44,15 +44,15 @@
       "type": "text",
       "required": true
     },
-    "aadharNo": {
+    "AadharNo": {
       "type": "uid",
       "required": true
     },
-    "lastName": {
+    "lastname": {
       "type": "string",
       "required": true
     },
-    "fatherName": {
+    "fathername": {
       "type": "string",
       "required": true
     },

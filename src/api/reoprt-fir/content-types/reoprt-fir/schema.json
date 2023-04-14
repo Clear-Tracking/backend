@@ -12,14 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "personpic": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "firstName": {
       "type": "string",
       "required": true
@@ -44,7 +36,7 @@
       "type": "string",
       "required": true
     },
-    "contact": {
+    "Contact": {
       "type": "string",
       "required": true
     },
@@ -60,15 +52,15 @@
       "type": "string",
       "required": true
     },
-    "eye": {
+    "Eye": {
       "type": "string",
       "required": true
     },
-    "hair": {
+    "Hair": {
       "type": "string",
       "required": true
     },
-    "face": {
+    "Face": {
       "type": "text"
     },
     "aod": {
@@ -87,26 +79,29 @@
       "required": true,
       "default": false
     },
-    "caseNo": {
-      "type": "integer",
-      "unique": true,
-      "required": true
-    },
-    "caseId": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
     "firLaunchedBy": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "stationId": {
       "type": "integer",
       "required": true
     },
-    "aadharNo": {
+    "aadhar": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "found": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "familyRegisteredAadhar": {
       "type": "string"
+    },
+    "personpic": {
+      "type": "text"
     }
   }
 }

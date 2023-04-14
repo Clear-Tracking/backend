@@ -16,7 +16,7 @@
       "type": "email",
       "required": true
     },
-    "aadharNo": {
+    "AadharNo": {
       "type": "string",
       "required": false
     },
@@ -28,11 +28,13 @@
       "default": false,
       "required": true
     },
-    "password": {
-      "type": "string"
-    },
     "username": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
     }
   }
 }
