@@ -36,7 +36,7 @@
       "type": "string",
       "required": true
     },
-    "contact": {
+    "Contact": {
       "type": "string",
       "required": true
     },
@@ -52,15 +52,15 @@
       "type": "string",
       "required": true
     },
-    "eye": {
+    "Eye": {
       "type": "string",
       "required": true
     },
-    "hair": {
+    "Hair": {
       "type": "string",
       "required": true
     },
-    "face": {
+    "Face": {
       "type": "text"
     },
     "aod": {

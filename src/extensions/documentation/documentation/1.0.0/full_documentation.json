@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-04-11T18:14:26.860Z"
+    "x-generation-date": "2023-04-14T10:37:32.475Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -102,9 +102,9 @@
               "gender",
               "dob",
               "address",
-              "aadharNo",
-              "lastName",
-              "fatherName",
+              "AadharNo",
+              "lastname",
+              "fathername",
               "motherName"
             ],
             "type": "object",
@@ -140,13 +140,13 @@
               "address": {
                 "type": "string"
               },
-              "aadharNo": {
+              "AadharNo": {
                 "type": "string"
               },
-              "lastName": {
+              "lastname": {
                 "type": "string"
               },
-              "fatherName": {
+              "fathername": {
                 "type": "string"
               },
               "motherName": {
@@ -806,13 +806,13 @@
               "address": {
                 "type": "string"
               },
-              "aadharNo": {
+              "AadharNo": {
                 "type": "string"
               },
-              "lastName": {
+              "lastname": {
                 "type": "string"
               },
-              "fatherName": {
+              "fathername": {
                 "type": "string"
               },
               "motherName": {
@@ -1769,13 +1769,13 @@
               "address": {
                 "type": "string"
               },
-              "aadharNo": {
+              "AadharNo": {
                 "type": "string"
               },
-              "lastName": {
+              "lastname": {
                 "type": "string"
               },
-              "fatherName": {
+              "fathername": {
                 "type": "string"
               },
               "motherName": {
@@ -2765,13 +2765,13 @@
               "address": {
                 "type": "string"
               },
-              "aadharNo": {
+              "AadharNo": {
                 "type": "string"
               },
-              "lastName": {
+              "lastname": {
                 "type": "string"
               },
-              "fatherName": {
+              "fathername": {
                 "type": "string"
               },
               "motherName": {
@@ -3728,13 +3728,13 @@
               "address": {
                 "type": "string"
               },
-              "aadharNo": {
+              "AadharNo": {
                 "type": "string"
               },
-              "lastName": {
+              "lastname": {
                 "type": "string"
               },
-              "fatherName": {
+              "fathername": {
                 "type": "string"
               },
               "motherName": {
@@ -4069,8 +4069,8 @@
               "pom",
               "dom",
               "complexion",
-              "eye",
-              "hair",
+              "Eye",
+              "Hair",
               "height",
               "weight",
               "isLaunched",
@@ -4099,7 +4099,7 @@
               "guardian": {
                 "type": "string"
               },
-              "contact": {
+              "Contact": {
                 "type": "string"
               },
               "pom": {
@@ -4112,13 +4112,13 @@
               "complexion": {
                 "type": "string"
               },
-              "eye": {
+              "Eye": {
                 "type": "string"
               },
-              "hair": {
+              "Hair": {
                 "type": "string"
               },
-              "face": {
+              "Face": {
                 "type": "string"
               },
               "aod": {
@@ -4183,7 +4183,7 @@
               "guardian": {
                 "type": "string"
               },
-              "contact": {
+              "Contact": {
                 "type": "string"
               },
               "pom": {
@@ -4196,13 +4196,13 @@
               "complexion": {
                 "type": "string"
               },
-              "eye": {
+              "Eye": {
                 "type": "string"
               },
-              "hair": {
+              "Hair": {
                 "type": "string"
               },
-              "face": {
+              "Face": {
                 "type": "string"
               },
               "aod": {
@@ -4564,7 +4564,7 @@
               "guardian": {
                 "type": "string"
               },
-              "contact": {
+              "Contact": {
                 "type": "string"
               },
               "pom": {
@@ -4577,13 +4577,13 @@
               "complexion": {
                 "type": "string"
               },
-              "eye": {
+              "Eye": {
                 "type": "string"
               },
-              "hair": {
+              "Hair": {
                 "type": "string"
               },
-              "face": {
+              "Face": {
                 "type": "string"
               },
               "aod": {
@@ -4978,7 +4978,7 @@
               "guardian": {
                 "type": "string"
               },
-              "contact": {
+              "Contact": {
                 "type": "string"
               },
               "pom": {
@@ -4991,13 +4991,13 @@
               "complexion": {
                 "type": "string"
               },
-              "eye": {
+              "Eye": {
                 "type": "string"
               },
-              "hair": {
+              "Hair": {
                 "type": "string"
               },
-              "face": {
+              "Face": {
                 "type": "string"
               },
               "aod": {
@@ -5359,7 +5359,7 @@
               "guardian": {
                 "type": "string"
               },
-              "contact": {
+              "Contact": {
                 "type": "string"
               },
               "pom": {
@@ -5372,13 +5372,13 @@
               "complexion": {
                 "type": "string"
               },
-              "eye": {
+              "Eye": {
                 "type": "string"
               },
-              "hair": {
+              "Hair": {
                 "type": "string"
               },
-              "face": {
+              "Face": {
                 "type": "string"
               },
               "aod": {
