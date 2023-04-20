@@ -102,6 +102,12 @@
     },
     "personpic": {
       "type": "text"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
     }
   }
 }
